@@ -21,9 +21,40 @@
 
   </head>
   <body>
-    <!--Aca esta el header que se repetirá en todas las paginas para poder navegar entre ellas-->
-    <div class="container-fluid d-none d-sm-flex">
-      <div class="row d-flex flex-row justify-content-md-between header">
+    <!--aca esta el container de toda la pagina-->
+    <div class="container-fluid d-md-block">
+      <!--Aca esta el header que se repetirá en todas las paginas para poder navegar entre ellas con pantallas bajo el sm-->
+      <div class="collapse d-md-none" id="navbarToggleExternalContent">
+        <div class="bg-primary p-4">
+          <h5 class="text-white h4">Menu</h5>
+          <ul class="nav just d-block">
+            <li class="nav-item me-md-2 me-lg-3">
+              <a href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item me-md-2 me-lg-3">
+              <a href="electricidad.html">Electricidad</a>
+            </li>
+            <li class="nav-item me-md-2 me-lg-3">
+              <a href="ccdd.html">Corrientes débiles</a>
+            </li>
+            <li class="nav-item me-md-2 me-lg-3">
+              <a href="trabajeConNosotros.html">Trabaja con nosotros</a>
+            </li>
+            <li class="nav-item me-md-2 me-lg-3">
+              <a href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-primary d-md-none">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <!--Aca esta el header que se repetirá en todas las paginas para poder navegar entre ellas con pantallas sobre sm-->
+      <div class="row d-md-flex flex-row justify-content-md-between d-none d-sm-none header">
         <!--imagen de logo con enlace a la pagina de inicio-->
         <div class="col-md-2 col-lg-2 logo">
           <a href="index.html"
@@ -33,79 +64,80 @@
           /></a>
         </div>
         <!--barra de navegación para moverse entre las páginas-->
-        <div class="col-md-8 col-lg-8 d-flex align-items-md-end">
-            <ul class="nav">
-              <li class="nav-item me-lg-3 me-md-3">
+        <div class="col-md-9 col-lg-9 d-flex align-items-md-end justify-content-md-end align-con">
+            <ul class="nav just">
+              <li class="nav-item me-md-2 me-lg-3">
                 <a href="index.html">Inicio</a>
               </li>
-              <li class="nav-item me-lg-3 me-md-3">
+              <li class="nav-item me-md-2 me-lg-3">
                 <a href="electricidad.html">Electricidad</a>
               </li>
-              <li class="nav-item me-lg-3 me-md-3">
+              <li class="nav-item me-md-2 me-lg-3">
                 <a href="ccdd.html">Corrientes débiles</a>
               </li>
-              <li class="nav-item me-lg-3 me-md-3">
+              <li class="nav-item me-md-2 me-lg-3">
                 <a href="trabajeConNosotros.html">Trabaja con nosotros</a>
               </li>
-              <li class="nav-item me-lg-3 me-md-3">
+              <li class="nav-item me-md-2 me-lg-3">
                 <a href="contacto.html">Contacto</a>
               </li>
             </ul>
         </div>
       </div>
-    </div>
       <!--seccion principal de la pagina-->
-      <main class="main">
-      <img
-        class="main main__img"
+      <div class="row main">
+        <img
+        class="clo-md-12 main main__img"
         src="imagenes/imagenDeInicio.jpg"
         alt="imagenDeInicio"
-      />
-      <h1 class="main main__titulo">NUESTRA EMPRESA</h1>
-      <p class="main main__text">
-        Es una empresa familiar que ofrece el apoyo a la gestión de sus
-        proyectos a través de los servicios de ingeniería eléctrica, electrónica
-        y telecomunicaciones, destacando principalmente en el diseño de
-        proyectos eléctricos de alumbrado y fuerza siguiendo la normativa
-        nacional vigente. Nuestra forma de trabajo se basa en la planificación
-        eficiente de las tareas a ejecutar, con la finalidad de cumplir con los
-        plazos de entrega y los controles de calidad. Nos caracterizamos por
-        cumplir altos estándares en el diseño de proyectos, así como contar con
+        />
+        <h1 class="col-md-12 main main__titulo">NUESTRA EMPRESA</h1>
+        <p class="col-md-12 main main__text">
+          Es una empresa familiar que ofrece el apoyo a la gestión de sus
+          proyectos a través de los servicios de ingeniería eléctrica, electrónica
+          y telecomunicaciones, destacando principalmente en el diseño de
+          proyectos eléctricos de alumbrado y fuerza siguiendo la normativa
+          nacional vigente. Nuestra forma de trabajo se basa en la planificación
+          eficiente de las tareas a ejecutar, con la finalidad de cumplir con los
+          plazos de entrega y los controles de calidad. Nos caracterizamos por
+          cumplir altos estándares en el diseño de proyectos, así como contar con
         un equipo altamente capacitado en diversas áreas de ingeniería, buscando
         siempre la satisfacción de nuestros clientes.
       </p>
-    </main>
+    </div>
     <!--Footer para colocar algunos datos de contacto-->
-    <footer class="footer">
+    <div class="clo-md-4 row footer">
       <div class="footer__img">
         <img
-          class="footer__img footer__img--img"
-          src="icons/mail 2.png"
-          alt="email"
+        class="footer__img footer__img--img"
+        src="icons/mail 2.png"
+        alt="email"
         />
         <img
-          class="footer__img footer__img--img"
-          src="icons/call-center.png"
-          alt="telefono"
+        class="footer__img footer__img--img"
+        src="icons/call-center.png"
+        alt="telefono"
         />
         <img
-          class="footer__img footer__img--img"
-          src="icons/map.png"
-          alt="ubicacion"
+        class="footer__img footer__img--img"
+        src="icons/map.png"
+        alt="ubicacion"
         />
       </div>
-      <div class="footer__text">
+      <div class="col-md-4 footer__text">
         <p class="footer__text footer__text--text">contacto@cpm.cl</p>
         <p class="footer__text footer__text--text">+56-9-55555555</p>
         <a
-          class="footer__text footer__text--text"
-          href="https://www.google.cl/maps/@-32.9261174,-71.5336387,15.52z"
-          target="_blank"
-          >Viña del Mar, Chile</a
+        class="footer__text footer__text--text"
+        href="https://www.google.cl/maps/@-32.9261174,-71.5336387,15.52z"
+        target="_blank"
+        >Viña del Mar, Chile</a
         >
       </div>
-    </footer>
+    </div>
+  </div>
     <!--link para iniciar el JS de BS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   </body>
-</html>
+  </html>
+  
