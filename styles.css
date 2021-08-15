@@ -196,7 +196,6 @@ a:hover {
 /* Clase para el footer */
 
 .footer {
-  /*background-color: #1f4de4e0;*/
   background-image: radial-gradient(rgb(0, 183, 255), #1f4de4e0);
   color: white;
 }
