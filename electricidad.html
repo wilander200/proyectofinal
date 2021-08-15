@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--link para agregar la fuente de las letras-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--link para la animacion de las imagenes al hacer scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--aca esta el link de enlace a los estilos del CSS-->
+    <link rel="stylesheet" href="styles.css" />
+    <title>CPM SpA</title>
+  </head>
+  <body>
+    <script>
+      AOS.init();
+    </script>
+    <!--Aca esta el header que se repetirá en todas las paginas para poder navegar entre ellas-->
+    <header class="header">
+      <!--imagen de logo con enlace a la pagina de inicio-->
+      <div class="header__logo">
+        <a href="index.html"
+          ><img
+            class="header__logo header__logo--logo"
+            src="imagenes/logoBlanco.png"
+            alt="logoInicio"
+        /></a>
+      </div>
+      <!--barra de navegación para moverse entre las páginas-->
+      <div class="nav">
+        <nav>
+          <ul class="nav nav__list">
+            <li class="nav nav__list nav__lis--item">
+              <a href="index.html">Inicio</a>
+            </li>
+            <li class="nav nav__list nav__lis--item">
+              <a href="electricidad.html">Electricidad</a>
+            </li>
+            <li class="nav nav__list nav__lis--item">
+              <a href="ccdd.html">Corrientes débiles</a>
+            </li>
+            <li class="nav nav__list nav__lis--item">
+              <a href="trabajeConNosotros.html">Trabaja con nosotros</a>
+            </li>
+            <li class="nav nav__list nav__lis--item">
+              <a href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="grid2">
+      <!--seccion principal de la pagina-->
+      <h1 class="grid__titulo3">ELECTRICIDAD</h1>
+      <img
+        data-aos="fade-up-right"
+        class="grid__img"
+        src="imagenes/electrico.png"
+        alt="electrico"
+      />
+      <img
+        data-aos="fade-up-left"
+        class="grid__img"
+        src="imagenes/electromovilidad.png"
+        alt="electromovilidad"
+      />
+      <h2 class="grid__titulo2">Sistemas eléctricos</h2>
+      <h2 class="grid__titulo2">Electromovilidad</h2>
+      <p class="grid__texto2">
+        Diseñamos proyectos eléctricos y especificaciones técnicas domiciliares,
+        comerciales, hospitalarios e industriales, siguiendo la normativa
+        eléctrica vigente, adaptándose a las necesidades de cada uno de los
+        proyectos.
+      </p>
+      <p class="grid__texto2">
+        Buscamos generar diseños que le permitan mantener su vehiculo siempre
+        cargado, cumpliendo con los estandares de seguridad y eficiencia
+        energetica.
+      </p>
+      <img
+        data-aos="fade-up-right"
+        class="grid__img"
+        src="imagenes/modeloBim.png"
+        alt="bim"
+      />
+      <img
+        data-aos="fade-up-left"
+        class="grid__img"
+        src="imagenes/fotovoltaico.png"
+        alt="fv"
+      />
+      <h2 class="grid__titulo2">Modelación BIM</h2>
+      <h2 class="grid__titulo2">Generación fotovoltaica</h2>
+      <p class="grid__texto2">
+        Nos especializamos en el desarrollo de proyectos eléctricos, siguiendo
+        la metodología de modelación BIM, logrando un mayor control,
+        coordinación con otras especialidades y eficiencia en el trabajo de
+        ejecución.
+      </p>
+      <p class="grid__texto2">
+        Generamos proyectos de sistemas fotovoltáicos de tipo on-grid y
+        off-grid, ya sean PGMD o NETBILING, buscando siempre generar la mejor
+        solución a las necesidades de su proyecto.
+      </p>
+    </main>
+    <!--Footer para colocar algunos datos de contacto-->
+    <footer class="footer">
+      <div class="footer__img">
+        <img
+          class="footer__img footer__img--img"
+          src="icons/mail 2.png"
+          alt="email"
+        />
+        <img
+          class="footer__img footer__img--img"
+          src="icons/call-center.png"
+          alt="telefono"
+        />
+        <img
+          class="footer__img footer__img--img"
+          src="icons/map.png"
+          alt="ubicacion"
+        />
+      </div>
+      <div class="footer__text">
+        <p class="footer__text footer__text--text">contacto@cpm.cl</p>
+        <p class="footer__text footer__text--text">+56-9-55555555</p>
+        <a
+          class="footer__text footer__text--text"
+          href="https://www.google.cl/maps/@-32.9261174,-71.5336387,15.52z"
+          target="_blank"
+          >Viña del Mar, Chile</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

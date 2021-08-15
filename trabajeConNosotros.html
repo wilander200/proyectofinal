@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--link para agregar la fuente de las letras-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--aca esta el link de enlace a los estilos del CSS-->
+    <link rel="stylesheet" href="styles.css" />
+    <title>CPM SpA</title>
+  </head>
+  <body>
+    <!--Aca esta el header que se repetirá en todas las paginas para poder navegar entre ellas-->
+    <header class="header">
+      <!--imagen de logo con enlace a la pagina de inicio-->
+      <div class="header__logo">
+        <a href="index.html"
+          ><img
+            class="header__logo header__logo--logo"
+            src="imagenes/logoBlanco.png"
+            alt="logoInicio"
+        /></a>
+      </div>
+      <!--barra de navegación para moverse entre las páginas-->
+      <div class="nav">
+        <nav>
+          <ul class="nav nav__list">
+            <li class="nav nav__list nav__lis--item">
+              <a href="index.html">Inicio</a>
+            </li>
+            <li class="nav nav__list nav__lis--item">
+              <a href="electricidad.html">Electricidad</a>
+            </li>
+            <li class="nav nav__list nav__lis--item">
+              <a href="ccdd.html">Corrientes débiles</a>
+            </li>
+            <li class="nav nav__list nav__lis--item">
+              <a href="trabajeConNosotros.html">Trabaja con nosotros</a>
+            </li>
+            <li class="nav nav__list nav__lis--item">
+              <a href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <h1 class="main main__titulo">TRABAJE CON NOSOTROS</h1>
+      <!--seccion principal de la pagina-->
+      <form class="form" action="">
+        <div class="form__div">
+          <label for="user">Nombre y Apellido</label>
+          <input type="text" id="user" name="user" />
+        </div>
+        <div class="form__div">
+          <label for="nacionalidad">Nacionalidad</label>
+          <input type="text" id="nacionalidad" name="nacionalidad" />
+        </div>
+
+        <div class="form__div">
+          <label for="identificacion">Documento de identidad</label>
+          <input type="text" id="identificacion" name="identificacion" />
+        </div>
+
+        <div class="form__div">
+          <label for="fechaNacimiento">Fecha de Nacimiento</label>
+          <input type="text" id="fechaNacimiento" name="fechaNacimiento" />
+        </div>
+
+        <div class="form__div">
+          <label for="telefono">Número de contacto</label>
+          <input type="text" id="telefono" name="telefono" />
+        </div>
+
+        <div class="form__div">
+          <label for="email">Correo</label>
+          <input type="email" id="email" name="email" />
+        </div>
+
+        <div class="form__div">
+          <p><b>Nivel de estudios</b></p>
+          <div class="form__div--rad">
+          <input type="radio" id="media" name="estudios" value="media" />
+          <label for="media">Media completa</label>
+          </div>
+          <div class="form__div--rad">
+          <input type="radio" id="tecnico" name="estudios" value="tecnico" />
+          <label for="tecnico">Técnico Superior</label>
+          </div>
+          <div class="form__div--rad">
+            <input
+              type="radio"
+              id="universitario"
+              name="estudios"
+              value="universitario"
+            />
+          <label for="universitario">Universitario completo</label>
+          </div>
+          <div class="form__div--rad">
+          <input type="radio" id="otro" name="estudios" value="otro" />
+          <label for="otro">Otro</label>
+          </div>
+
+        <div class="form__div">
+          <label for="experiencia">Tiempo de experiencia</label>
+          <select name="experiencia" id="experiencia">
+            <option value="select">-</option>
+            <option value="trainee">0 años</option>
+            <option value="junior">1-3 años</option>
+            <option value="plane">3-5 años</option>
+            <option value="senior">5 o mas años</option>
+          </select>
+        </div>
+
+        <div class="form__div">
+          <textarea name="mensaje" id="mensaje" cols="40" rows="5">
+Información complementaria</textarea
+          >
+        </div>
+        <div class="form__div">
+          <input type="submit" value="guardar" />
+          <input type="reset" value="limpiar" />
+        </div>
+      </form>
+    </main>
+    <!--Footer para colocar algunos datos de contacto-->
+    <footer class="footer">
+      <div class="footer__img">
+        <img
+          class="footer__img footer__img--img"
+          src="icons/mail 2.png"
+          alt="email"
+        />
+        <img
+          class="footer__img footer__img--img"
+          src="icons/call-center.png"
+          alt="telefono"
+        />
+        <img
+          class="footer__img footer__img--img"
+          src="icons/map.png"
+          alt="ubicacion"
+        />
+      </div>
+      <div class="footer__text">
+        <p class="footer__text footer__text--text">contacto@cpm.cl</p>
+        <p class="footer__text footer__text--text">+56-9-55555555</p>
+        <a
+          class="footer__text footer__text--text"
+          href="https://www.google.cl/maps/@-32.9261174,-71.5336387,15.52z"
+          target="_blank"
+          >Viña del Mar, Chile</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
