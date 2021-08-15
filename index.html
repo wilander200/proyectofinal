@@ -22,41 +22,40 @@
   </head>
   <body>
     <!--Aca esta el header que se repetirá en todas las paginas para poder navegar entre ellas-->
-    <header class="header">
-      <!--imagen de logo con enlace a la pagina de inicio-->
-      <div class="header__logo">
-        <a href="index.html"
+    <div class="container-fluid d-none d-sm-flex">
+      <div class="row d-flex flex-row justify-content-md-between header">
+        <!--imagen de logo con enlace a la pagina de inicio-->
+        <div class="col-md-2 col-lg-2 logo">
+          <a href="index.html"
           ><img
-            class="header__logo header__logo--logo"
-            src="imagenes/logoBlanco.png"
-            alt="logoInicio"
-        /></a>
+          src="imagenes/logoBlanco.png"
+          alt="logoInicio"
+          /></a>
+        </div>
+        <!--barra de navegación para moverse entre las páginas-->
+        <div class="col-md-8 col-lg-8 d-flex align-items-md-end">
+            <ul class="nav">
+              <li class="nav-item me-lg-3 me-md-3">
+                <a href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item me-lg-3 me-md-3">
+                <a href="electricidad.html">Electricidad</a>
+              </li>
+              <li class="nav-item me-lg-3 me-md-3">
+                <a href="ccdd.html">Corrientes débiles</a>
+              </li>
+              <li class="nav-item me-lg-3 me-md-3">
+                <a href="trabajeConNosotros.html">Trabaja con nosotros</a>
+              </li>
+              <li class="nav-item me-lg-3 me-md-3">
+                <a href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+        </div>
       </div>
-      <!--barra de navegación para moverse entre las páginas-->
-      <div class="nav">
-        <nav>
-          <ul class="nav nav__list">
-            <li class="nav nav__list nav__lis--item">
-              <a href="index.html">Inicio</a>
-            </li>
-            <li class="nav nav__list nav__lis--item">
-              <a href="electricidad.html">Electricidad</a>
-            </li>
-            <li class="nav nav__list nav__lis--item">
-              <a href="ccdd.html">Corrientes débiles</a>
-            </li>
-            <li class="nav nav__list nav__lis--item">
-              <a href="trabajeConNosotros.html">Trabaja con nosotros</a>
-            </li>
-            <li class="nav nav__list nav__lis--item">
-              <a href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <!--seccion principal de la pagina-->
-    <main class="main">
+    </div>
+      <!--seccion principal de la pagina-->
+      <main class="main">
       <img
         class="main main__img"
         src="imagenes/imagenDeInicio.jpg"

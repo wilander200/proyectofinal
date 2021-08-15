@@ -14,14 +14,14 @@ html {
 /*eliminando el efecto y el color de las anclas para que todas queden igual*/
 
 a {
-  text-decoration: none;
-  color: white;
+  text-decoration: none !important;
+  color: white !important;
 }
 
 /*usando el hover en los enlaces*/
 
 a:hover {
-  color: rgb(4, 226, 255);
+  color: rgb(4, 226, 255) !important;
 }
 
 /*clases para el header*/
@@ -34,39 +34,14 @@ a:hover {
   position: sticky;
   top: 0;
   left: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+
 }
 
 /*clase para el logo */
 
-.header__logo {
+.logo {
   margin: 0.5rem;
-}
-
-.header__logo--logo {
-  margin: 0.5rem 0.5rem 0 0.5rem;
-  padding: 0.5rem 0.5rem 0 0.5rem;
-}
-
-/* clase para el nav*/
-
-.nav {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
-}
-
-.nav__list {
-  margin: 0.5rem 1rem;
-  padding: 0 0.5rem;
-}
-
-/*clase para la lista*/
-.nav__list--item {
-  list-style-type: none;
-  color: white;
+  padding: 00.5rem;
 }
 
 /*main*/
