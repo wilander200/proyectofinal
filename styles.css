@@ -201,11 +201,6 @@ a:hover {
   color: white;
 }
 
-.footer__img {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .footer__img--img {
   height: 3rem;
   width: 3rem;
@@ -213,15 +208,4 @@ a:hover {
   border-style: solid;
   background-color: white;
   border-radius: 25%;
-
-}
-
-.footer__text {
-  display: flex;
-  justify-content: space-evenly;
-}
-.footer__text--text {
-  text-decoration: none;
-  text-align: center;
-  margin: 0.5rem 10.25rem;
 }
