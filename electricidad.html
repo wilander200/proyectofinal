@@ -145,35 +145,37 @@
       </p>
     </main>
     <!--Footer para colocar algunos datos de contacto-->
-    <footer class="footer">
-      <div class="footer__img">
+    <div class="row p-2 footer">
+      <div class="d-flex flex-column col-md-4">
         <img
-          class="footer__img footer__img--img"
-          src="icons/mail 2.png"
-          alt="email"
-        />
-        <img
-          class="footer__img footer__img--img"
+        class="mx-auto my-1 d-md-block d-none d-sm-none footer__img--img"
+        src="icons/mail 2.png"
+        alt="email"/>
+        <p class="text-center my-1">contacto@cpm.cl</p>
+      </div>
+        <div class="col-md-4">
+          <img
+          class="mx-auto my-1 d-md-block d-none d-sm-none footer__img--img"
           src="icons/call-center.png"
           alt="telefono"
-        />
-        <img
-          class="footer__img footer__img--img"
+          />
+          <p class="text-center my-2">+56-9-55555555</p>  
+        </div>
+        <div class="col-md-4 d-block">
+          <img
+          class="mx-auto my-1 d-md-block d-none d-sm-none footer__img--img"
           src="icons/map.png"
           alt="ubicacion"
-        />
-      </div>
-      <div class="footer__text">
-        <p class="footer__text footer__text--text">contacto@cpm.cl</p>
-        <p class="footer__text footer__text--text">+56-9-55555555</p>
-        <a
-          class="footer__text footer__text--text"
-          href="https://www.google.cl/maps/@-32.9261174,-71.5336387,15.52z"
-          target="_blank"
-          >Viña del Mar, Chile</a
-        >
-      </div>
-    </footer>
+          />
+          <div class="my-1 mx-auto d-flex justify-content-center">
+            <a class="mx-auto"
+            href="https://www.google.cl/maps/@-32.9261174,-71.5336387,15.52z"
+            target="_blank"
+            >Viña del Mar, Chile</a
+            >
+          </div>
+        </div>
+    </div>
     <!--link para iniciar el JS de BS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   </body>
