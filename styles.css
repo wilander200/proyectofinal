@@ -199,14 +199,6 @@ a:hover {
   /*background-color: #1f4de4e0;*/
   background-image: radial-gradient(rgb(0, 183, 255), #1f4de4e0);
   color: white;
-  display: flex;
-  height: auto;
-  width: auto;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  margin: 0.5rem;
-  padding: 1rem;
 }
 
 .footer__img {
@@ -217,12 +209,11 @@ a:hover {
 .footer__img--img {
   height: 3rem;
   width: 3rem;
-  align-content: center;
   border-color: white;
   border-style: solid;
   background-color: white;
   border-radius: 25%;
-  margin: 0.5rem 12.5rem;
+
 }
 
 .footer__text {
