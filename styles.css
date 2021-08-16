@@ -31,9 +31,6 @@ a:hover {
     rgba(37, 145, 251, 0.98) 0.1%,
     rgba(0, 7, 128, 1) 99.8%
   );
-  position: sticky;
-  top: 0;
-  left: 0;
 
 }
 
@@ -161,24 +158,14 @@ a:hover {
 
 .form {
   margin: auto;
-  background-color: rgba(228, 228, 228, 0.973);
+  /*background-color: rgba(228, 228, 228, 0.973);*/
   padding: 1rem;
-  border: grey 0.1rem solid;
-  width: 30rem;
-  height: 100%;
+  border: rgb(177, 177, 177) 0.1rem solid;
+  /*width: 30rem;
+  height: 100%;*/
   border-radius: 1rem;
   text-align: center;
-  box-shadow: 0rem 0rem 2rem rgb(77, 77, 77);
-}
-
-.form__div {
-  margin: 0.5rem 2rem;
-  padding: 0.5rem;
-  text-align: center;
-  display: inline-block;
-}
-.form__div--rad {
-  margin: 0.2rem;
+  box-shadow: 0.5rem 0.5rem 2rem rgb(184, 184, 184);
 }
 
 /* Clase para el footer */
