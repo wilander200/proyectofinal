@@ -84,84 +84,76 @@
         </div>
       </div>
       <!--seccion principal de la pagina-->
-    <main class="main">
-      <h1 class="main main__titulo">TRABAJE CON NOSOTROS</h1>
-      <form class="form" action="">
-        <div class="form__div">
-          <label for="user">Nombre y Apellido</label>
-          <input type="text" id="user" name="user" />
-        </div>
-        <div class="form__div">
-          <label for="nacionalidad">Nacionalidad</label>
-          <input type="text" id="nacionalidad" name="nacionalidad" />
-        </div>
+    <div class="row main">
+      <div class="col-12 m-3">
+        <h1 class="text-center fw-bold display-6 m-3">TRABAJE CON NOSOTROS</h1>
+      </div>
 
-        <div class="form__div">
-          <label for="identificacion">Documento de identidad</label>
-          <input type="text" id="identificacion" name="identificacion" />
-        </div>
-
-        <div class="form__div">
-          <label for="fechaNacimiento">Fecha de Nacimiento</label>
-          <input type="text" id="fechaNacimiento" name="fechaNacimiento" />
-        </div>
-
-        <div class="form__div">
-          <label for="telefono">Número de contacto</label>
-          <input type="text" id="telefono" name="telefono" />
-        </div>
-
-        <div class="form__div">
-          <label for="email">Correo</label>
-          <input type="email" id="email" name="email" />
-        </div>
-
-        <div class="form__div">
-          <p><b>Nivel de estudios</b></p>
-          <div class="form__div--rad">
-          <input type="radio" id="media" name="estudios" value="media" />
-          <label for="media">Media completa</label>
+      <!--Formulario trabaje con nosotros-->
+      
+      <div class="col-xs-9 col-sm-10 col-md-7 px-4 py-3 mb-5 form">
+        <form action="">
+          <div class="mb-1">
+            <label class="form-label m-1 fw-bold" for="user">Nombre y Apellido</label>
+            <input class="form-control m-1" type="text" id="user" name="user" />
           </div>
-          <div class="form__div--rad">
-          <input type="radio" id="tecnico" name="estudios" value="tecnico" />
-          <label for="tecnico">Técnico Superior</label>
+          <div class="mb-1">
+            <label class="form-label m-1 fw-bold" for="nacionalidad">Nacionalidad</label>
+            <input class="form-control m-1" type="text" id="nacionalidad" name="nacionalidad" />
           </div>
-          <div class="form__div--rad">
-            <input
-              type="radio"
-              id="universitario"
-              name="estudios"
-              value="universitario"
-            />
-          <label for="universitario">Universitario completo</label>
-          </div>
-          <div class="form__div--rad">
-          <input type="radio" id="otro" name="estudios" value="otro" />
-          <label for="otro">Otro</label>
-          </div>
-
-        <div class="form__div">
-          <label for="experiencia">Tiempo de experiencia</label>
-          <select name="experiencia" id="experiencia">
-            <option value="select">-</option>
+          
+        <div class="mb-1">
+          <label class="form-label m-1 fw-bold" for="identificacion">Documento de identidad</label>
+          <input class="form-control m-1" type="text" id="identificacion" name="identificacion" />
+        </div>
+        
+        <div class="mb-1">
+          <label class="form-label m-1 fw-bold" for="fechaNacimiento">Fecha de Nacimiento</label>
+          <input class="form-control m-1" type="text" id="fechaNacimiento" name="fechaNacimiento" />
+        </div>
+        
+        <div class="mb-1">
+          <label class="form-label m-1 fw-bold" for="telefono">Número de contacto</label>
+          <input class="form-control m-1" type="text" id="telefono" name="telefono" />
+        </div>
+        
+        <div class="mb-1">
+          <label class="form-label m-1 fw-bold" for="email">Correo</label>
+          <input class="form-control m-1" type="email" id="email" name="email" />
+        </div>
+        
+        <div class="my-1">
+          <label class="form-label m-1 fw-bold" for="estudios">Nivel de estudios</label>
+            <select class="form-select m-1" name="estudios" id="estudios">
+            <option value="selected">Seleccione</option>
+            <option value="cotizacion">Media Completa</option>
+            <option value="informacion">Técnico</option>
+            <option value="cotizacion">Técnico superior</option>
+            <option value="informacion">Universitaria completa</option>
+            <option value="otro">Otro</option>
+        </select>
+        <div class="my-1">
+          <label class="form-label m-1 fw-bold" for="experiencia">Tiempo de experiencia</label>
+          <select class="form-select m-1" name="experiencia" id="experiencia">
+            <option value="select">Seleccione</option>
             <option value="trainee">0 años</option>
             <option value="junior">1-3 años</option>
             <option value="plane">3-5 años</option>
             <option value="senior">5 o mas años</option>
           </select>
         </div>
-
-        <div class="form__div">
-          <textarea name="mensaje" id="mensaje" cols="40" rows="5">
-Información complementaria</textarea
-          >
-        </div>
-        <div class="form__div">
-          <input type="submit" value="guardar" />
-          <input type="reset" value="limpiar" />
-        </div>
-      </form>
-    </main>
+        
+        <div>
+          <label for="mensaje" class="form-label fw-bold" >Mensaje opcional</label>
+          <textarea class="form-control" name="mensaje" id="mensaje" cols="40" rows="5"></textarea
+            >
+          </div>
+          <div class="m-3">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+      </div>
     <!--Footer para colocar algunos datos de contacto-->
     <div class="row p-2 footer">
       <div class="d-flex flex-column col-md-4">
