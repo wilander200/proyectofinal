@@ -46,11 +46,45 @@ a:hover {
   color: rgb(5, 12, 109);
 }
 
+.hero1 {
+  background-image: url(imagenes/backgroundElec.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 10rem;
+}
+
+.hero2 {
+  background-image: url(imagenes/backgroundCCDD2.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 10rem;
+}
+
+.hero3 {
+  background-image: url(imagenes/backgroundTrabajo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+
+.hero4 {
+  background-image: url(imagenes/backgroundContact.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+
 /*clase para los formularios*/
 
 .form {
   margin: auto;
-  /*background-color: rgba(228, 228, 228, 0.973);*/
+  background-color: rgba(228, 228, 228, 0.9);
   padding: 1rem;
   border: rgb(177, 177, 177) 0.1rem solid;
   /*width: 30rem;
