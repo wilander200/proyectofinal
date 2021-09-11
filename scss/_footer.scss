@@ -1,0 +1,15 @@
+/* Clase para el footer */
+
+.footer {
+  background-image: radial-gradient($colorFondo2, $colorFondo);
+  color: $colorBlanco;
+
+  .footer__img--img {
+    height: 3rem;
+    width: 3rem;
+    border-color: $colorBlanco;
+    border-style: solid;
+    background-color: $colorBlanco;
+    border-radius: 25%;
+  }
+}

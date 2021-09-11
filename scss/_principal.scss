@@ -1,0 +1,23 @@
+/*main*/
+
+.main {
+  color: rgb(5, 12, 109);
+
+  @import "./bucles";
+
+  .main--img {
+    border-radius: 2rem;
+    box-shadow: $Shadow1;
+  }
+}
+
+/*clase para los formularios*/
+
+.form {
+  margin: auto;
+  background-color: rgba(228, 228, 228, 0.9);
+  padding: 1rem;
+  border: rgb(177, 177, 177) 0.1rem solid;
+  border-radius: 1rem;
+  box-shadow: $Shadow1;
+}

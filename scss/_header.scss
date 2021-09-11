@@ -1,0 +1,22 @@
+/*clases para el header*/
+.header {
+  background-image: radial-gradient(
+    circle farthest-corner at 5% 20%,
+    $colorFondo2 0.1%,
+    $colorFondo 99.8%
+  );
+  .header__item {
+    margin: 0.5rem 0 0.5rem 0;
+    .header__item--a {
+      background-color: $colorFondo;
+      padding: 0.5rem;
+    }
+  }
+}
+
+/*clase para el logo */
+
+.logo {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}

@@ -1,0 +1,19 @@
+@for $i from 1 through 4 {
+  @if $i<3 {
+    .main--hero#{$i} {
+      background-image: url(../imagenes/bgimg#{$i}.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 10rem;
+    }
+  } @else {
+    .main--hero#{$i} {
+      background-image: url(../imagenes/bgimg#{$i}.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: auto;
+    }
+  }
+}

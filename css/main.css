@@ -1,0 +1,103 @@
+/*reset para el html*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  font-size: 1rem;
+}
+
+/*eliminando el efecto y el color de las anclas para que todas queden igual*/
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+/*usando el hover en los enlaces*/
+a:hover {
+  color: rgba(37, 145, 251, 0.98) !important;
+}
+
+/*clases para el header*/
+.header {
+  background-image: radial-gradient(circle farthest-corner at 5% 20%, rgba(37, 145, 251, 0.98) 0.1%, #000780 99.8%);
+}
+.header .header__item {
+  margin: 0.5rem 0 0.5rem 0;
+}
+.header .header__item .header__item--a {
+  background-color: #000780;
+  padding: 0.5rem;
+}
+
+/*clase para el logo */
+.logo {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+/*main*/
+.main {
+  color: #050c6d;
+}
+.main .main--hero1 {
+  background-image: url(../imagenes/bgimg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 10rem;
+}
+.main .main--hero2 {
+  background-image: url(../imagenes/bgimg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 10rem;
+}
+.main .main--hero3 {
+  background-image: url(../imagenes/bgimg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+.main .main--hero4 {
+  background-image: url(../imagenes/bgimg4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+.main .main--img {
+  border-radius: 2rem;
+  box-shadow: 0.5rem 0.5rem 2rem #8d8d8d;
+}
+
+/*clase para los formularios*/
+.form {
+  margin: auto;
+  background-color: rgba(228, 228, 228, 0.9);
+  padding: 1rem;
+  border: #b1b1b1 0.1rem solid;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 2rem #8d8d8d;
+}
+
+/* Clase para el footer */
+.footer {
+  background-image: radial-gradient(rgba(37, 145, 251, 0.98), #000780);
+  color: white;
+}
+.footer .footer__img--img {
+  height: 3rem;
+  width: 3rem;
+  border-color: white;
+  border-style: solid;
+  background-color: white;
+  border-radius: 25%;
+}
+
+/*# sourceMappingURL=main.css.map */
