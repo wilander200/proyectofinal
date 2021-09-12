@@ -1,7 +1,7 @@
 {
-  "name": "desafio",
+  "name": "CPM SpA",
   "version": "1.0.0",
-  "description": "desafio sass",
+  "description": "Pagina web para empresa de diseño de proyectos electricos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wilander200/desafios.git"
+    "url": "git+https://github.com/wilander200/proyectofinal.git"
   },
-  "author": "",
+  "author": "Wilander Velazco Molina",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wilander200/desafios/issues"
+    "url": "https://github.com/wilander200/proyectofinal/issues"
   },
-  "homepage": "https://github.com/wilander200/desafios#readme",
+  "homepage": "https://github.com/wilander200/proyectofinal#readme",
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"

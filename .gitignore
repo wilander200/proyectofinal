@@ -1,1 +1,5 @@
 /node_modules
+.firebaserc
+404.html
+firebase.json
+hosting..cache
