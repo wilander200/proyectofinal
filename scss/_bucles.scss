@@ -1,7 +1,7 @@
 @for $i from 1 through 4 {
   @if $i<3 {
     .main--hero#{$i} {
-      background-image: url(../imagenes/bgimg#{$i}.jpg);
+      background-image: url(../imagenes/bgimg#{$i}.AVIF);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -9,7 +9,7 @@
     }
   } @else {
     .main--hero#{$i} {
-      background-image: url(../imagenes/bgimg#{$i}.jpg);
+      background-image: url(../imagenes/bgimg#{$i}.AVIF);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;

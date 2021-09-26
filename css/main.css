@@ -8,6 +8,8 @@
 html {
   font-size: 62.5%;
   font-size: 1rem;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /*eliminando el efecto y el color de las anclas para que todas queden igual*/
@@ -23,7 +25,11 @@ a:hover {
 
 /*clases para el header*/
 .header {
-  background-image: radial-gradient(circle farthest-corner at 5% 20%, rgba(37, 145, 251, 0.98) 0.1%, #000780 99.8%);
+  background-image: radial-gradient(
+    circle farthest-corner at 5% 20%,
+    rgba(37, 145, 251, 0.98) 0.1%,
+    #000780 99.8%
+  );
 }
 .header .header__item {
   margin: 0.5rem 0 0.5rem 0;
@@ -44,28 +50,28 @@ a:hover {
   color: #050c6d;
 }
 .main .main--hero1 {
-  background-image: url(../imagenes/bgimg1.jpg);
+  background-image: url(../imagenes/bgimg1.AVIF);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 10rem;
 }
 .main .main--hero2 {
-  background-image: url(../imagenes/bgimg2.jpg);
+  background-image: url(../imagenes/bgimg2.AVIF);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 10rem;
 }
 .main .main--hero3 {
-  background-image: url(../imagenes/bgimg3.jpg);
+  background-image: url(../imagenes/bgimg3.AVIF);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: auto;
 }
 .main .main--hero4 {
-  background-image: url(../imagenes/bgimg4.jpg);
+  background-image: url(../imagenes/bgimg4.AVIF);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
